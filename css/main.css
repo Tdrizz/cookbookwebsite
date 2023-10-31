@@ -553,16 +553,19 @@ About Page
 .about-img {
   border-radius: var(--borderRadius);
   height: 300px;
+  object-position: top;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 892px) {
   .about-page {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     align-items: center;
   }
   .about-img {
-    height: 100%;
+    height: 120%;
+    width: auto;
+    padding-left: 60px;
   }
 }
 
