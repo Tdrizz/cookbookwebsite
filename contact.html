@@ -40,7 +40,33 @@
    </nav>
     <!-- Main -->
     <main class="page">
-      <h1>Contact</h1>
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            I'd love to hear from you! Whether you have questions, feedback, or just want to say hello, feel free to reach out. Your feedback means the world to me, and I would love to answer any inquiries you may have. Please fill out the contact form, and I'll get back to you as soon as possible. Thank you for checking out my website!
+          </p>
+        </article>
+        <article>
+          <form class="form contact-form" action="https://formspree.io/f/xleyvgde" method="POST">
+            <div class="form-row">
+              <label html="name" class="form-label">your name</label>
+              <input type="text" name="name" id="name" class="form-input" autocomplete="off" required/>
+            </div>
+            <div class="form-row">
+              <label html="email" class="form-label">your email</label>
+              <input type="text" name="email" id="email" class="form-input" autocomplete="off" required/>
+            </div>
+            <div class="form-row">
+              <label html="message" class="form-label">message</label>
+              <textarea name="message" id="message" class="form-textarea" autocomplete="off" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">
+              submit
+            </button>
+          </form>
+        </article>
+      </section>
     </main>
     <!-- end of main -->
     <!-- footer -->
