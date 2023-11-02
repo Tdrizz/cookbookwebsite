@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zuppa Toscana</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button type="button" class="btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="./index.html" class="nav-link">home</a>
+        <a href="about.html" class="nav-link">about</a>
+        <a href="recipes.html" class="nav-link">recipes</a>
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn">contact</a>
+        </div>
+      </div>
+    </div>
+   </nav>
+    <!-- Main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe9.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Zuppa Toscana</h2>
+            <p>
+                Zuppa Toscana is a hearty Italian soup featuring spicy Italian sausage, tender potatoes, and fresh kale in a creamy broth. It's a comforting bowl of flavors and textures, with a savory kick from the sausage and a touch of green freshness from the kale. Cream adds a luscious finish, making it a beloved and satisfying choice for a comforting meal.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>2 servings</p>
+              </article>
+            </div>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Sausage and Bacon</p>
+                <div></div>
+              </header>
+              <p>
+               1. In a large pot, cook the Italian sausage over medium heat, breaking it into small pieces as it browns. Once cooked, remove it from the pot and set it aside. 
+              </p>
+              <p>
+               2. In the same pot, add the chopped bacon and cook until it's crispy. Remove the bacon and set it aside with the cooked sausage.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Soup</p>
+                <div></div>
+              </header>
+              <p>
+               1. In the same pot, add the chopped onion and cook until it becomes translucent, about 5 minutes.
+              </p>
+              <p>
+               2. Add the minced garlic and cook for an additional minute.
+              </p>
+              <p>
+               3. Return the cooked sausage and bacon to the pot.  
+              </p>
+              <p>
+               4. Add the diced potatoes, chicken broth, and water. Bring the mixture to a boil, then reduce the heat to simmer. Cook for about 15-20 minutes or until the potatoes are tender. 
+              </p>
+              <p>
+               5. Stir in the chopped kale and cook for an additional 5 minutes, or until the kale is wilted and tender. 
+              </p>
+              <p>
+               6. Pour in the heavy cream and season the soup with salt, black pepper, and red pepper flakes (if you want extra heat).
+              </p>
+              <p>
+               7. Allow the soup to heat through, but do not let it boil once the cream has been added.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Serve</p>
+                <div></div>
+              </header>
+              <p>
+                Ladle the Zuppa Toscana into bowls and garnish with grated Parmesan cheese.  
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">1 pound Italian sausage (spicy or mild, as per your preference)</p>
+              <p class="single-ingredient">1 onion, chopped</p>
+              <p class="single-ingredient">4-5 slices of bacon, chopped</p>
+              <p class="single-ingredient">3 cloves garlic, minced</p>
+              <p class="single-ingredient">3 large russet potatoes, peeled and diced</p>
+              <p class="single-ingredient">4 cups chicken broth</p>
+              <p class="single-ingredient">2 cups water</p>
+              <p class="single-ingredient">2 cups kale, chopped</p>
+              <p class="single-ingredient">1 cup heavy cream</p>
+              <p class="single-ingredient">Salt and black pepper to taste</p>
+              <p class="single-ingredient">Red pepper flakes (optional, for extra heat)</p>
+              <p class="single-ingredient">Grated Parmesan cheese (for garnish)</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p> &copy; <span id="date"></span>
+      <span class="footer-logo">Tittan's Cookbook</span>
+      Built By Tittan Olson
+    </p>
+    </footer>
+   <script src="./js/app.js"></script>
+  </body>
+</html>
